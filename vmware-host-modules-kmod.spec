@@ -10,7 +10,7 @@
 
 Name:       vmware-host-modules-kmod
 Summary:    Kernel module (kmod) for vmware-host-modules
-Version:    16.1.0
+Version:    16.1.2
 Release:    1%{?dist}
 License:    GPLv2
 URL:        https://github.com/mkubecek/vmware-host-modules
@@ -61,5 +61,7 @@ done
 %{?akmod_install}
 
 %changelog
+* Sat Sep 11 2021 Łukasz Patron <priv.luk@gmail.com> - player-16.1.2-1
+- Release player-16.1.2
 * Tue Mar 23 2021 Łukasz Patron <priv.luk@gmail.com> - player-16.1.0-1
 - Release player-16.1.0
